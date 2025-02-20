@@ -72,7 +72,7 @@ movies_title = tuple(movies_title)
 st.title('Movie Recommender System')
 
 selected_movie = st.selectbox(
-    "How would you like to be contacted?",
+    "Select Movie Name: ",
     movies_title,
 )
 
